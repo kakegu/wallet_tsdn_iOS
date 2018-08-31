@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13771"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="c3f-6u-fIf" customClass="TNBackupSeedBackView" customModule="TrustNote" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="284"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sfi-H2-5PN" customClass="TNSeedContainerView" customModule="TrustNote" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="142"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="142" id="6A2-cv-Mpg"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="sfi-H2-5PN" firstAttribute="top" secondItem="c3f-6u-fIf" secondAttribute="top" id="et4-Cg-QHm"/>
+                <constraint firstItem="sfi-H2-5PN" firstAttribute="leading" secondItem="c3f-6u-fIf" secondAttribute="leading" id="gG8-dP-w7x"/>
+                <constraint firstItem="sfi-H2-5PN" firstAttribute="centerX" secondItem="c3f-6u-fIf" secondAttribute="centerX" id="sXI-Vc-o45"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="seedContainerView" destination="sfi-H2-5PN" id="G3t-LJ-hhn"/>
+            </connections>
+            <point key="canvasLocation" x="13.5" y="-59.5"/>
+        </view>
+    </objects>
+</document>

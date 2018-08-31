@@ -1,0 +1,238 @@
+/* 
+  Localizable.strings
+  TrustNote
+
+  Created by zenghailong on 2018/3/23.
+  Copyright © 2018年 org.trustnote. All rights reserved.
+*/
+
+/*************protocol**************/
+"Protocol.first" = "1. TrustNote wallet is completely free and open source under the very permissive MIT license.";
+
+"Protocol.second" = "2. Because there is no centralized server, the password, private key, or mnemonic is not stored on or synced to the server, therefore TrustNote cannot provide a service to recover or reset your password, private key, and mnemonic if it’s forgotten, lost or stolen.";
+
+"Protocol.third" = "3. All transactions are open and transparent on TrustNote’s decentralized ledger system, TrustNote has no control of whether your transactions are public for anyone to see, or not.";
+
+"Protocol.fourth" = "4. You can change the name of your wallet through the “WALLET” module, and you can make and receive payment from your TrustNote wallet.";
+
+"Protocol.fifth" = "5. You can add friends and chat to them through the \"MESSAGE\" module.";
+
+"Protocol.sixth" = "6. You can check the T&Cs from the TrustNote wallet and we encourage you to review it every time when you use the wallet.";
+
+"Protocol.seventh" = "7. The software is provided “as is”, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and non-infringement. In no event shall the authors or copyright holders be liable for any claim, damage or other liability.";
+
+"Protocol.eighth" = "8. According to the feedback from the community, the software is open sourced after public testing, we cannot guarantee the software has zero defects, but we are committed to making continuously improvements to the software.";
+
+"Protocol.ninth" = "9. Please confirm the use of the software is your own decision, you acknowledge you will take all risks and consequences related to the use of the software, and the use of the software shall strictly abide by all applicable laws.";
+
+"Protocol.tenth" = "10. In no event shall the authors of the software be held liable for any claim, damages or other liability, whether in an action of contract, tort, or otherwise, arising from, out of or in connection with the software. \nWe reserve the right to modify this disclaimer from time to time.";
+
+
+"Protocol.agree" = "I affirm that i have read, understood, and agree with these terms.";
+
+"Button.agree" = "AGREE";
+
+"Terms of Use" = "Terms Of Use";
+
+/******* device name string************/
+"Please enter device name" = "Please enter the device name";
+"Welocme To TrustNote" = "Welcome to TrustNote";
+"DeviceName.instruction" = "You can define the name of your device so your friends can easily find you from the chatting list after adding you as friend.";
+
+/******* setup password string************/
+"Password.firstWarning" = "Password strength is critical to safeguard your wallet";
+"Password.secondWarning" = "We don’t save your password therefore we can't recover your password, please make sure don’t forget it.";
+"Password.titleText" = "Setting the Password";
+"Please enter the password" = "Please enter the password";
+"Please re-enter the password" = "Please re-enter the password";
+"Password.passwordLengthValid"  = "At least 8 characters, suggesting a mix of letters, digits, and special symbols";
+"Password.passwordSecurity" = "Password is too week, easily get hacked";
+"Password.checkInput" = "Passwords are not match, please re-enter";
+"Password must be at least 8 characters" = "Password must be at least 8 characters";
+"Password.weakLevel" = "Weak";
+"Password.middleLevel" = "Medium";
+"Password.strongLevel" = "Strong";
+"Please enter your old password" = "Please enter your old password";
+"Please enter your new password" = "Please enter your new password";
+"Please re-confirm your password" = "Please re-confirm your password";
+"Original password input error" = "Old password incorrect";
+
+"Confirm" = "Confirm";
+"Cancel" = "Cancel";
+
+"Create wallet" = "Create Wallet";
+"Create.slogan" = "Trust · Token · Things";
+"Restore wallet" = "Restore Wallet";
+
+"Create Wallet and Backup Your Seed Phrase" = "Create Wallet and Backup Your Seed Phrase";
+
+"CreateWallet.instruction" = "We highly recommend you write the Mnemonic words(Backup Phrase) on Paper and keep it in a safe place, anyone get it can access or spend your assets. Also get start with a small amout of assets.";
+/******* beckup seed string************/
+"Backup Your Seed Phrase" = "Backup Your Mnemonic";
+"Backup your 12 words mnemonic now" = "Backup your mnemonic now";
+"Backup.description" = "You can only use these mnemonic to restore your wallet! Your assets cannot be recovered if the mnemonic are lost! Your assets may be stolen if the mnemonic are leaked! ";
+"Backup.firstWarning" = "Write it down or save it in an offline device";
+"Backup.lastWarning" = "Restore your wallet immediately after creating your wallet, to ensure the mnemonic is correct";
+"Backup done" = "Backup Complete";
+"Backup mode reminding" = "Please never take a screenshot of the mnemonic. Write it down carefully instead!";
+"Make sure have been backed up" = "Are you sure you saved mnemonic?";
+
+/******* verify seed string************/
+"Verifying notes" = "Verify Mnemonic";
+"Verifying.description" = "Please make sure your mnemonic was written correctly,  then type in the words in its order to verify the one you wrote down is correct.";
+"Verification done" = "Verification Complete";
+"Verification error" = "The order is not right, please check and try it again";
+"Verifying words correct" = "Mnnemonic is verified ";
+"VerifyingCompletion.instruction" = "Your mnemonic is correct. For your own safety, we suggest you delete the mnemonic from your device";
+"Make sure delete words" = "Are you sure you want to delete the mnemonic?";
+"Delete words" = "Delete Mnemonic";
+"Keep it for now" = "Keep it for now";
+
+/******* verify password string************/
+"Input password" = "Enter Your Password";
+"Please input password" = "Please enter your password";
+"Verify password error" = "Incorrect password, please re-enter";
+"The wallet has been encrypted" = "Your wallet is encrypted.";
+"Click continue" = "Continue";
+
+/******* mnemonic string************/
+"Recover wallet" = "Restore Mnemonic";
+"Wallet mnemonic" = "Your wallet's mnemonic";
+"Use the phrase to restore the wallet" = "Restore your wallet";
+"Restore the wallet and delete the phrase" = "Restore wallet and delete the mnemonic";
+"Restore from the mnemonic" = "Restore from the mnemonic";
+
+/******* tabBar string************/
+"Wallet" = "Wallet";
+"Message" = "Message";
+"Profile" = "Me";
+
+/******* wallet string************/
+"Scan QR Code" = "Scan QR Code";
+"Add Contact" = "Add Contact";
+"Create Wallet" = "Create Wallet";
+"My Matching Code" = "Matching Code";
+"Total assets" = "Total Assets";
+"Network connections are unavailable" = "Network is not accessible.";
+"Observation" = "观察";
+"ScanDescription" = "Align QR Code within frame to scan";
+"Tap to turn light on" = "Tap to turn light on";
+"Tip to close" = "Tip to close";
+"Send" = "Send";
+"Receive" = "Receive";
+"Recent transaction records" = "Recent transaction records";
+"My receiving address" = "My receiving address";
+"Fixed amount" = "Fixed amount";
+"Copy the receiving address" = "Copy the receiving address";
+"Clear the amount" = "Clear the amount";
+"Send TTT" = "Send TTT";
+"Remaining balance" = "Remaining balance";
+"Receiver's wallet address" = "Receiver's wallet address";
+"Amount" = "Amount";
+"Send all" = "Send all";
+"Send.instruction" = "This is a watch-only wallet which requires an offline wallet with the mnemonic to sign the transactions.";
+"Send.checkout" = "See How offline signing work?";
+"Send.invalidAddress" = "Invalid address, please check and try it again";
+"Insufficient remaining balance" = "Insufficient remaining balance";
+"Address" = "Address";
+"NoContactAddress" = "Select \"+\" in bottom right of the screen to add frequently used address";
+"Wallet address" = "Wallet address";
+"Remarks" = "Remarks";
+"Add address" = "Add address";
+"Edit address" = "Edit address";
+"Save" = "Save";
+"Confirmed" = "Confirmed";
+"Unconfirmed" = "Unconfirmed";
+"Invalid" = "Invalid";
+"No records" = "No records";
+"Received (MN)" = "Received (MN)";
+"No address" = "No address";
+"Scan results" = "Scan results";
+"Transaction Details" = "Transaction Details";
+"Received" = "Received";
+"Sent" = "Sent";
+"Receiver" = "Receiver";
+"Sender" = "Sender";
+"Fee" = "Fee";
+"Date" = "Date";
+"Unit" = "Unit";
+"Status" = "Status";
+"Choose the wallet to pay" = "Choose the wallet to pay";
+"You can't create more no TTT wallets" = "You can't create more no TTT wallets";
+
+/******* create wallet string************/
+"Create TTT wallet" = "Create TrustNote wallet";
+"Common wallet" = "Regular wallet";
+"Observe wallet" = "Watch-Only wallet";
+"Create the wallet" = "Create the wallet";
+"Enter the name of your new TrustNote wallet" = "Enter the name of your new wallet";
+"No more than 20 characters" = "No more than 20 characters";
+"CreateObserveWallet.firstTip" = "不建议使用PC端作为观察钱包";
+"CreateObserveWallet.lastTip" = "观察钱包发送交易时需要冷钱包配合签名。你可以使用另一台闲置手机，开飞行模式作为冷钱包，配合离线签名。";
+"Next" = "NEXT";
+"Done" = "Done";
+
+/******* profile string************/
+"Welcome to the TrustNote World" = "Welcome to the TrustNote World";
+"Transaction records" = "Transaction records";
+"My pairing code" = "My Matching Code";
+"PairngCode.desc" = "Use other device to scan the QT code below, or send the QR code to other devices, add me as friends";
+"Copy paire code" = "Copy Device Code";
+"Copy success"    = "Copied";
+"Wallet tools" = "Wallet tools";
+"Sync from cloned wallet" = "Sync from cloned wallet";
+"Settings" = "Settings";
+"About trustNote" = "About TrustNote";
+"Language" = "Language";
+"Wallet password" = "Wallet password";
+"Version" = "Version";
+"Hash value" = "Hash Value";
+"Personal information" = "Personal Details";
+"Sync Cloned Wallets" = "Sync Cloned Wallets";
+"Press the button to sync" = "Press the button to sync";
+"Sync Wallets" = "Sync Wallets";
+"SyncClonedWallets.warning" = "We don't recommend cloning your wallet because your wallet is safe as long as your mnemonic is well protected. However,if you experience data inconsistency issue between the original wallet and its clone,you can fix it by using the\"Sync Cloned Wallets\"feature on both wallets.";
+"SyncLoading" = "Syncing, please don't exit…";
+"RecoverLoading" = "Restoring, please don’t exit...";
+"Scan cold wallet code" = "请使用观察钱包扫描冷钱包认证码";
+"Signing succeed" = "Signing succeed";
+"Scan auth success description" = "To complete the authoization process, use the watch-only wallet to scan the signature QR code";
+"Recover wallet tips" = "Please make sure your mnemonic is backuped already. When restore the wallet with another mnemonic, the existing wallet will be removed from the device!";
+"Show the mnemonic" = "Show the mnemonic";
+"Hide the mnemonic" = "Hide the mnemonic";
+"Backup mnemonic" = "Backup Mnemonic";
+"Mnemonic words have been deleted" = "Your mnemonic deleted";
+"Profile.setupPassword" = "Set up a password";
+
+/******* manage wallet string************/
+"Manage wallet" = "Manage wallet";
+"Wallet name" = "Wallet name";
+"Cold wallet authentication code" = "Cold wallet authentication code";
+"Wallet ID" = "Wallet ID";
+"Delete wallet" = "Delete wallet";
+"Please enter the name of the wallet" = "请输入钱包名称";
+"Delete the wallet warning" = "Permanently delete the wallet. If you want to restore the wallet, you must use your mnemonic";
+"Unable to delete hints" = "The wallet can’t be deleted beause it contains assets";
+"No more than 10 characters" = "No more than 10 characters";
+"Assets (MN)" = "Assets(MN)";
+
+/******* message wallet string************/
+"Contacts" = "Contacts";
+"Add Contacts" = "Add Contacts";
+"Device Code" = "Device Code";
+"Add" = "Add";
+"Incorrect code" = "Incorrect code, please check and try it again";
+"you can’t add your self ad friend" = "you can’t add your self ad friend";
+"Scan or enter the device code" = "Scan or enter the device code";
+"NoContactsDesc" = "Select \"+\" in top right of the screen to add new contact";
+"Set Alias" = "Set Alias";
+"Delete Contact" = "Delete Contact";
+"Clear Chat History" = "Clear Chat History";
+"add contact success" = "你已添加对方为好友，现在可以开始聊天";
+"Set Alias" = "Set Alias";
+"No contacts" = "No contacts";
+
+"Backup.instruction" = "Those 12 mnemonic words are for recovering you wallet, write down correctly on paper and keep in a safe place.";
+"Confirm your mnemonic words" = "Confirm your mnemonic words";
+"Backup.tips" = "Please write the mnemonic words in order and make sure your mnemonic was correct written.";
+"Last Step" = "LAST STEP";

@@ -1,0 +1,243 @@
+/* 
+  Localizable.strings
+  TrustNote
+
+  Created by zenghailong on 2018/3/23.
+  Copyright © 2018年 org.trustnote. All rights reserved.
+*/
+
+/*******protocol page string************/
+"Protocol.first" = "1、您即将使用的是一款免费开源的数字钱包软件。";
+
+"Protocol.second" = "2、您知悉TrustNote钱包不会开设账户，在TrustNote上的钱包密码、私钥、助记词并不存储或同步至服务器，TrustNote不提供找回您的密码、私钥、助记词服务。";
+
+"Protocol.third" = "3、您知悉，您的交易记录是否公开，TrustNote并没有控制权，因为基于区块链交易系统开源属性，您的交易记录在整个区块链上都是公开透明的。";
+
+"Protocol.fourth" = "4、您知悉可以通过“钱包”模块修改您的钱包名称、进行转账及收款等活动。";
+
+"Protocol.fifth" = "5、您知悉可以通过“消息”模块添加好友、进行聊天等活动。";
+
+"Protocol.sixth" = "6、您可以在TrustNote中查看条款，我们鼓励您在每次访问TrustNote时都查阅条款。";
+
+"Protocol.seventh" = "7、在法律允许的最大范围内，本软件会以当前形式提供，不存在一切其它明示或默示保证，包括（但不限于）关于适销性、合理性或某一特定用途以及非侵权的默示保证。";
+
+"Protocol.eighth" = "8、根据社区用户和开发者社区用户的需求反馈，本软件公开测试后开源，我们不保证本软件不存在缺陷，以后将持续更新。";
+
+"Protocol.ninth" = "9、请确认本软件的使用是您自己的决定，您将自愿承担使用本软件相关的所有风险和其它后果，并严格遵守所有适用的法律。";
+
+"Protocol.tenth" = "10.任何情况下，本软件的作者不对任何合同诉讼、侵权行为或其它与本软件无关或相关内容产生的任何索赔、损伤或其它责任负责。\n我们保留更新此声明的权利。";
+
+"Protocol.agree" = "我已经仔细阅读并同意服务与隐私条款";
+"Button.agree" = "同意";
+
+"Terms of Use" = "使用条款";
+
+/******* device name string************/
+"Please enter device name" = "请输入设备名称";
+"Welocme To TrustNote" = "欢迎来到TrustNote钱包";
+"DeviceName.instruction" = "您可以自定义设备名称，朋友加您好友后，在聊天列表里很容易找到您。";
+
+
+/******* setup password string************/
+"Password.firstWarning" = "密码用于进入设备和交易授权，强度非常重要";
+"Password.secondWarning" = "TrustNote不存储密码，也无法帮您找回，请务必牢记";
+"Password.titleText" = "设置密码";
+"Please enter the password" = "请输入密码";
+"Please re-enter the password" = "请再次确认密码";
+"Password.passwordLengthValid"  = "不少于8位字符，建议混合大小写字母、数字、特殊符号";
+"Password.passwordSecurity" = "密码强度太弱，极易被黑客破解";
+"Password.checkInput" = "两次输入密码不一致，请重新输入";
+"Password must be at least 8 characters" = "密码不少于8位字符";
+"Password.weakLevel" = "弱";
+"Password.middleLevel" = "中";
+"Password.strongLevel" = "强";
+"Please enter your old password" = "请输入原密码";
+"Please enter your new password" = "请输入新密码";
+"Please re-confirm your password" = "请再次确认密码";
+"Original password input error" = "原密码输入错误";
+
+"Confirm" = "确定";
+"Cancel" = "取消";
+
+
+"Create wallet" = "创建钱包";
+
+"Create.slogan" = "信任 · 通证 · 万物";
+
+"Restore wallet" = "恢复钱包";
+
+"Create Wallet and Backup Your Seed Phrase" = "创建钱包并备份您的口令";
+
+"CreateWallet.instruction" = "备份钱包，导出“口令”并抄写到安全的地方，千万不要保存到网络上。然后尝试转入，转出小额资产开始使用。";
+
+/******* beckup seed string************/
+"Backup Your Seed Phrase" = "备份助记词";
+"Backup your 12 words mnemonic now" = "立即备份你的12个助记词";
+
+"Backup.description" = "您只能用这些单词恢复钱包！一旦丢失，资产将无法找回！一旦泄露，资产将会被盗！";
+"Backup.firstWarning" = "建议手写或保存在离线设备中";
+"Backup.lastWarning" = "建议完成备份助记词后立即恢复一次，以确保助记词正确";
+"Backup done" = "完成备份";
+"Backup mode reminding" = "请认真抄写助记词，不要用截屏的方式保管助记词。";
+"Make sure have been backed up" = "确认已经保存了助记词? ";
+
+/******* verify seed string************/
+"Verifying notes" = "验证助记词";
+"Verifying.description" = "根据你记下的助记词，按顺序输入，验证你备份的助记词正确无误";
+"Verification done" = "完成验证";
+"Verification error" = "助记词验证错误，请检查后重试";
+"Verifying words correct" = "助记词验证正确";
+"VerifyingCompletion.instruction" = "您的助记词正确，为了确保您的钱包安全，建议您删除显示在设备中的助记词";
+"Make sure delete words" = "确认删除助记词？";
+"Delete words" = "删除助记词";
+"Keep it for now" = "暂不删除";
+
+/******* verify password string************/
+"Input password" = "输入密码";
+"Please input password" = "请输入钱包密码";
+"Verify password error" = "密码错误，请重新输入";
+"The wallet has been encrypted" = "钱包已加密";
+"Click continue" = "点击继续";
+
+/******* mnemonic string************/
+"Recover wallet" = "恢复钱包";
+"Wallet mnemonic" = "钱包助记词";
+"Use the phrase to restore the wallet" = "使用助记词恢复钱包";
+"Restore the wallet and delete the phrase" = "恢复钱包并删除助记词";
+"Restore from the mnemonic" = "助记词恢复钱包";
+
+/******* tabBar string************/
+"Wallet" = "钱包";
+"Message" = "消息";
+"Profile" = "我的";
+
+/******* wallet string************/
+"Scan QR Code" = "扫一扫";
+"Add Contact" = "添加联系人";
+"Create Wallet" = "创建钱包";
+"My Matching Code" = "我的配对码";
+"Total assets" = "总资产";
+"Network connections are unavailable" = "网络连接不可用";
+"Observation" = "观察";
+"ScanDescription" = "将二维码放入框内，自动扫描";
+"Tap to turn light on" = "轻触照亮";
+"Tip to close" = "轻触关闭";
+"Send" = "转账";
+"Receive" = "收款";
+"Recent transaction records" = "最近交易记录";
+"My receiving address" = "我的收款地址";
+"Fixed amount" = "设置金额";
+"Copy the receiving address" = "复制收款地址";
+"Clear the amount" = "清除金额";
+"Send TTT" = "TTT转账";
+"Remaining balance" = "可用余额";
+"Receiver's wallet address" = "接收方钱包地址";
+"Amount" = "转账金额";
+"Send all" = "全部转出";
+"Send.instruction" = "当前为观察钱包，需要存有助记词的冷钱包配合签名。";
+"Send.checkout" = "查看如何进行离线签名？";
+"Send.invalidAddress" = "地址有误，请检查后重试";
+"Insufficient remaining balance" = "可用余额不足";
+"Address" = "地址";
+"NoContactAddress" = "请点击右上角的“+”添加地址";
+"Wallet address" = "钱包地址";
+"Remarks" = "备注";
+"Add address" = "添加地址";
+"Edit address" = "编辑地址";
+"Save" = "保存";
+"Confirmed" = "已确认";
+"Unconfirmed" = "未确认";
+"Invalid" = "无效的";
+"No records" = "暂无记录哦~";
+"Received (MN)" = "收款金额(MN)";
+"No address" = "没有地址";
+"Scan results" = "扫描结果";
+"Transaction Details" = "交易详情";
+"Received" = "已收到";
+"Sent" = "已发送";
+"Receiver" = "接收方";
+"Sender" = "发送方";
+"Fee" = "费用";
+"Date" = "日期";
+"Unit" = "单元";
+"Status" = "状态";
+"Choose the wallet to pay" = "选择付款钱包";
+"You can't create more no TTT wallets" = "您不能创建更多的空钱包";
+
+/******* create wallet string************/
+"Create TTT wallet" = "创建TTT钱包";
+"Common wallet" = "普通钱包";
+"Observe wallet" = "观察钱包";
+"Create the wallet" = "创建钱包";
+"Enter the name of your new TrustNote wallet" = "输入TTT新钱包名称";
+"No more than 20 characters" = "不超过20个字符";
+"CreateObserveWallet.firstTip" = "不建议使用PC端作为观察钱包";
+"CreateObserveWallet.lastTip" = "观察钱包发送交易时需要冷钱包配合签名。你可以使用另一台闲置手机，开飞行模式作为冷钱包，配合离线签名。";
+"Next" = "下一步";
+"Done" = "完成";
+
+/******* profile string************/
+"Welcome to the TrustNote World" = "欢迎来到TrustNote世界";
+"Transaction records" = "交易记录";
+"My pairing code" = "我的配对码";
+"PairngCode.desc" = "使用其他设备扫描以下配对码，或将以下配对码发送给其他设备，加我好友";
+"Copy paire code" = "复制配对码";
+"Copy success"    = "复制成功";
+"Wallet tools" = "钱包工具";
+"Sync from cloned wallet" = "克隆钱包同步";
+"Settings" = "系统设置";
+"About trustNote" = "关于TrustNote";
+"Language" = "语言";
+"Wallet password" = "钱包密码";
+"Version" = "版本";
+"Hash value" = "哈希值";
+"Personal information" = "个人信息";
+"Sync Cloned Wallets" = "克隆钱包同步";
+"Press the button to sync" = "点击按钮同步";
+"Sync Wallets" = "同步钱包";
+"SyncClonedWallets.warning" = "不建议您克隆钱包，保护好您的助记词就是安全的。如果您遇到克隆钱包导致的数据不同步，请在两个钱包上使用克隆钱包同步功能。";
+"SyncLoading" = "同步中，请勿关闭软件";
+"RecoverLoading" = "恢复中，请勿关闭软件";
+"Scan cold wallet code" = "请使用观察钱包扫描冷钱包认证码";
+"Signing succeed" = "授权成功";
+"Scan auth success description" = "使用对应观察钱包扫描上方二维码完成授权";
+"Recover wallet tips" = "请确认当前钱包中的助记词已备份，使用其他助记词恢复钱包后，当前钱包将在该设备中移除！";
+"Show the mnemonic" = "显示钱包助记词";
+"Hide the mnemonic" = "隐藏钱包助记词";
+"Backup mnemonic" = "备份助记词";
+"Mnemonic words have been deleted" = "助记词已删除";
+"Profile.setupPassword" = "设置密码";
+
+
+/******* manage wallet string************/
+"Manage wallet" = "管理钱包";
+"Wallet name" = "钱包名称";
+"Cold wallet authentication code" = "冷钱包认证码";
+"Wallet ID" = "钱包ID";
+"Delete wallet" = "删除钱包";
+"Please enter the name of the wallet" = "请输入钱包名称";
+"Delete the wallet warning" = "即将删除此钱包，若您想生成该钱包，则需要您使用助记词恢复钱包！";
+"Unable to delete hints" = "该钱包内有资产，无法删除钱包";
+"No more than 10 characters" = "不超过10个字符";
+"Assets (MN)" = "资产(MN)";
+
+/******* message wallet string************/
+"Contacts" = "联系人";
+"Add Contacts" = "添加联系人";
+"Device Code" = "配对码";
+"Add" = "添加";
+"Incorrect code" = "配对码有误，请检查后重试";
+"you can’t add your self ad friend" = "调皮，不能添加自己为好友";
+"Scan or enter the device code" = "扫码或输入配对码";
+"NoContactsDesc" = "请点击右上角的“+”添加联系人";
+"Set Alias" = "设置备注名";
+"Delete Contact" = "删除联系人";
+"Clear Chat History" = "清空聊天记录";
+"add contact success" = "你已添加对方为好友，现在可以开始聊天";
+"Set Alias" = "设置备注名";
+"No contacts" = "没有联系人";
+
+"Backup.instruction" = "口令用于恢复钱包，将它准确地写到纸上，并存放在只有你知道的地方";
+"Confirm your mnemonic words" = "确认您的钱包口令";
+"Backup.tips" = "请按顺序输入口令以确认您的备份口令正确";
+"Last Step" = "上一步";
